@@ -7,7 +7,7 @@ public class MainDaftarNilai09 {
             new DaftarNilai09("Dian", 220101004, 2023, 76, 79),
             new DaftarNilai09("Eko", 220101005, 2023, 92, 95),
             new DaftarNilai09("Fajar", 220101006, 2022, 88, 85),
-            new DaftarNilai09("Gina", 220101007, 2021, 86, 87),
+            new DaftarNilai09("Gina", 220101007, 2021, 86, 83),
             new DaftarNilai09("Hadi", 220101008, 2020, 82, 84),
         };
 
