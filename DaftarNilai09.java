@@ -17,11 +17,10 @@ public class DaftarNilai09 {
         if (left == right) {
             return arr[left];
         }
-        
+
         int mid = (left + right) / 2;
         int maxLeft = cariMaxUTS(arr, left, mid);
         int maxRight = cariMaxUTS(arr, mid + 1, right);
-        
         return Math.max(maxLeft, maxRight);
     }
 
@@ -33,7 +32,6 @@ public class DaftarNilai09 {
         int mid = (left + right) / 2;
         int minLeft = cariMinUTS(arr, left, mid);
         int minRight = cariMinUTS(arr, mid + 1, right);
-        
         return Math.min(minLeft, minRight);
     }
 
