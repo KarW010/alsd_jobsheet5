@@ -23,5 +23,4 @@ public class Sum09 {
         double rsum = totalDC(arr, mid + 1, r);
         return lsum + rsum;
     }
-
 }
